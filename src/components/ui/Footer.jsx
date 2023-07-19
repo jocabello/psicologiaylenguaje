@@ -7,7 +7,7 @@ export default function FooterWithSocialMediaIcons() {
     <Footer container>
       <div className="w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
-          <div>
+          <div className=''>
             <Footer.Brand
               alt="Flowbite Logo"
               href="https://flowbite.com"
@@ -15,7 +15,7 @@ export default function FooterWithSocialMediaIcons() {
               src="https://tailwindui.com/img/logos/mark.svg"
             />
           </div>
-          <div className="sm:mt-4 sm:grid-cols-2 sm:gap-6 grid grid-rows-1 grid-flow-col gap-4">
+          <div className="sm:mt-16 sm:grid-cols-2 sm:gap-6 grid grid-rows-1 grid-flow-col gap-4 md:mt-16 ">
 
             <div>
 

@@ -4,11 +4,11 @@ import {
     Route,
     RouterProvider,
   } from "react-router-dom";
-import ContactPage from "../pages/ContactPage";
-import WhoAreWePage from "../pages/WhoAreWePage";
-import ServicesPage from "../pages/ServicesPage";
-import FaqsPage from "../pages/FaqsPage";
-import HomePage from "../pages/home/HomePage";
+import ContactPage from "../pages/site-contact/ContactPage";
+import WhoAreWePage from "../pages/site-whoarewe/WhoAreWePage";
+import ServicesPage from "../pages/site-services/ServicesPage";
+import FaqsPage from "../pages/site-faqs/FaqsPage";
+import HomePage from "../pages/site-home/HomePage";
 import RootLayout from "../ui/RootLayout";
   
 const router = createBrowserRouter(

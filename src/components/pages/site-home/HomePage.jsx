@@ -1,14 +1,15 @@
 import { Button, Card, Carousel } from 'flowbite-react';
 import { HiOutlineArrowRight } from 'react-icons/hi';
 
-import { FaArrowRightLong } from "react-icons/fa6"
 import AccordionElement from './AccordionElement';
+import QuoteElement from './QuoteElement';
+import { NavLink } from 'react-router-dom';
 
 export default function HomePage() {
   return (
-    <>
-      <div className='h-96 px-10'>
-        <Carousel slideInterval={5000}>
+    <div className='xl:px-28'>
+      <div className='h-96 px-10 xl:mt-8 xl:mb-5'>
+        <Carousel slideInterval={7000}>
           <img
             alt="..."
             src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
@@ -32,19 +33,26 @@ export default function HomePage() {
         </Carousel>
       </div>
 
-      <div className='pt-6 px-10 text-lg text-gray-700/90'>
+      {/* <div className='pt-6 px-10 text-lg text-gray-700/90'>
         <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.</p>
-      </div>
+      </div> */}
+
+      <QuoteElement />
       
-      <div className='pt-6 px-8 text-2xl text-center text-gray-700/90'>
+      {/* <div className='pt-6 px-8 text-2xl font-bold text-center text-gray-700/90'>
         <p>Conoce nuestro servicios</p>
+      </div> */}
+
+      <div className=" text-center mt-10 mb-5 ">
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Conoce nuestros servicios</h2>
       </div>
 
+        
 
 
       {/* CARDS */}
 
-      <div className='lg:flex px-10'>
+      <div className='lg:flex px-10 xl:mt-5'>
         
         <div  className='pt-6 pl-6 pr-6'>
           <Card
@@ -60,7 +68,7 @@ export default function HomePage() {
             <p className="font-normal text-gray-700 dark:text-gray-400">
               Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
             </p>
-            <Button>
+            <Button gradientDuoTone="purpleToBlue"  >
               <p>
                 Conoce más
               </p>
@@ -82,7 +90,7 @@ export default function HomePage() {
             <p className="font-normal text-gray-700 dark:text-gray-400">
               Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
             </p>
-            <Button>
+            <Button gradientDuoTone="purpleToBlue">
               <p>
                 Conoce más
               </p>
@@ -104,7 +112,7 @@ export default function HomePage() {
             <p className="font-normal text-gray-700 dark:text-gray-400">
               Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
             </p>
-            <Button>
+            <Button gradientDuoTone="purpleToBlue">
               <p>
                 Conoce más
               </p>
@@ -116,13 +124,15 @@ export default function HomePage() {
       </div>
 
       <div className='grid place-content-center mt-10 mb-10'>
-        <Button size="xl" gradientDuoTone="purpleToBlue">¡Contáctanos y reserva tu hora!</Button>
+        <NavLink NavLink to="contacto">
+          <Button size="xl" gradientDuoTone="purpleToPink">¡Contáctanos y reserva tu hora!</Button>
+        </NavLink>
       </div>
 
       <div className='px-10 mb-10'>
         <AccordionElement />
       </div>
 
-    </>
+    </div>
   )
 }

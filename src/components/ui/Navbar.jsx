@@ -19,9 +19,11 @@ export default function NavbarWithCTAButton() {
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2">
-        <Button>
-          ¡Contáctanos!
-        </Button>
+        <NavLink to="contacto">
+          <Button gradientDuoTone="purpleToBlue">
+            ¡Contáctanos!
+          </Button>
+        </NavLink>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
