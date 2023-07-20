@@ -20,7 +20,7 @@ export default function ContactPage() {
       <div className=" text-center mt-10 mb-5 ">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contáctanos</h2>
         <p className="mt-6 text-lg leading-8 text-gray-600">
-          Escríbenos para agendar tu hora o resolverdudas.
+          Escríbenos para agendar tu hora o resolver dudas.
         </p>
       </div>
       

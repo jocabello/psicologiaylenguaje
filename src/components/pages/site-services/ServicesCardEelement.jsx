@@ -15,12 +15,28 @@ export default function ServicesCardEelement() {
                 Psicología
                 </p>
             </h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">
+            <p className="font-normal text-gray-700 dark:text-gray-400 text-justify max-w-6xl">
                 {/* <p>
                 La Psicología a la que adscribo y practico es aquella que reconoce el cuerpo y sus dolores y sus necesidades y sus deseos y los equilibra. También atiende al mundo con sus relaciones sociales, familiares, sexuales que obviamente necesitan satisfacción material ayudadas por la expresión del lenguaje verbal honesto, claro, sincero y del lenguaje emocional que nos insta a bailar a cantar, escribir, escuchar música, pintar, estremecernos con la naturaleza. Esta psicología que nos fortalece para tener una autoestima adecuada que permita a nuestro yo no creer que es más o es menos de lo que como humano es ayudado por la capacidad de poner límites cuando corresponda , a los otros y a sí mismo, con la bondad justa que entregue de sí. Esta psicología que intenta acceder al conocimiento equilibrando la razón con la intuición, la racionalidad con la sabiduría. Esta psicología como propuesta terapéutica esta sin dudas más cerca de elevarnos y hacernos descender para acceder a lo incognoscible de nuestro ser. Ese ser que cuando vamos a terapia está sufriendo manifestándose a través de diferentes síntomas que no están dispersos en multiplicidad de estructuras sino que responden a nuestra Alma que sufre. Esta Psicología del árbol de la vida carta de ruta para acceder al Alma nos permitirá finalmente quien sufre, con la ayuda de lo que yo pueda iluminar sea quien acceda a ponerle palabra y sentido al sintoma que agrupa posiblemente atodos los síntomas de las clasificaciones tradicionles El desconocimiento de su Alma que grita para cumplir su misión.
                 </p> */}
                 <p>
-                Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
+                La Psicología a la que adscribo y practico es aquella que reconoce el cuerpo y sus dolores y sus
+necesidades y sus deseos y los equilibra. También atiende al mundo con sus relaciones sociales,
+familiares, sexuales que obviamente necesitan satisfacción material ayudadas por la expresión
+del lenguaje verbal honesto, claro, sincero y del lenguaje emocional que nos insta a bailar a
+cantar, escribir, escuchar música, pintar, estremecernos con la naturaleza. Esta psicología que
+nos fortalece para tener una autoestima adecuada que permita a nuestro yo no creer que es
+más o es menos de lo que como humano es ayudado por la capacidad de poner límites cuando
+corresponda , a los otros y a sí mismo, con la bondad justa que entregue de sí. Esta psicología
+que intenta acceder al conocimiento equilibrando la razón con la intuición, la racionalidad con la
+sabiduría. Esta psicología como propuesta terapéutica esta sin dudas más cerca de elevarnos y
+hacernos descender para acceder a lo incognoscible de nuestro ser. Ese ser que cuando vamos a
+terapia está sufriendo manifestándose a través de diferentes síntomas que no están dispersos
+en multiplicidad de estructuras sino que responden a nuestra Alma que sufre. Esta Psicología
+del árbol de la vida carta de ruta para acceder al Alma nos permitirá finalmente quien sufre, con
+la ayuda de lo que yo pueda iluminar sea quien acceda a ponerle palabra y sentido al sintoma
+que agrupa posiblemente atodos los síntomas de las clasificaciones tradicionles El
+desconocimiento de su Alma que grita para cumplir su misión.
                 </p>
             </p>
         </Card>

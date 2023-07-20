@@ -29,12 +29,31 @@ export default function HomePage() {
           <img
             alt="..."
             src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
-        />
+          />
         </Carousel>
       </div>
 
       {/* <div className='pt-6 px-10 text-lg text-gray-700/90'>
-        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.</p>
+        <p>
+          Mi trabajo como Psicóloga , por mi experiencia y larga historia de vida ha ido acumulando
+          diversas miradas teóricas a través de los años , tales como el Psicoanálisis freudiano, junguiano y
+          lacaniano y especialmente, en la terapia infantil , la escucha dinámica de Fracoise Dolto.
+          Sin embargo, como la vida es un aprendizaje permanente, ya que a eso hemos venido,
+          actualmente me he asomado a la fuente de toda ciencia y he llegado a concluir que todo lo
+          llamado enfermedad psíquica que se manifiesta en diversas sintomatologías clasificadas en
+          diversas nomenclaturas tales como : depresión, ansiedad, trastornos de personalidad, crisis de
+          pánico , de identidad, dependencias , etc. Toda esta multiplicidad sintómatica corresponde a un
+          grito desesperado del Alma impedida de ser feliz por la dificultad para encontrar el sentido de su
+          existir.
+          La propuesta psicológica que les hago esta enfocada en acompañar e iluminar las palabras de la
+          historia de vida que cada paciente traiga a objeto de elevar los niveles de conciencia que puedan
+          permitir encontrar la paz, el sentido de su vida y la felicidad como estado y no como fin.
+          Mi nombre es Ana. Nací en Chile, estudié fonoaudiología en el crepúsculo de los años 70. Viví en
+          Suecia, trabajé como logopeda en el hospital central de una ciudad cercana a Estocolmo. Volví a
+          Chile, estudie psicología y actualmente realizo un diplomado en la Escuela Psicología y Cabala en
+          España, cuyo director es el Doctor Mario Javier Saban.
+          A su servicio estoy en los días y horas dispuestas en esta página
+        </p>
       </div> */}
 
       <QuoteElement />
