@@ -25,7 +25,7 @@ const router = createBrowserRouter(
 
 export default function AppRouter() {
   return (
-    <RouterProvider router={router} />
+    <RouterProvider router={router} basename={"/psicologiaylenguaje/"} />
   )
 }
   
