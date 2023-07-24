@@ -20,7 +20,7 @@ const router = createBrowserRouter(
       <Route path="servicios" element={<ServicesPage />} />
       <Route path="preguntasyrespuestas" element={<FaqsPage />} />
     </Route>
-  )
+  ),{ basename: "/psicologiaylenguaje" }
 );
 
 export default function AppRouter() {
