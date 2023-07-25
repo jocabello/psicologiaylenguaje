@@ -143,7 +143,7 @@ export default function HomePage() {
       </div>
 
       <div className='grid place-content-center mt-10 mb-10'>
-        <NavLink NavLink to="contacto">
+        <NavLink to="contacto">
           <Button size="xl" gradientDuoTone="purpleToPink">¡Contáctanos y reserva tu hora!</Button>
         </NavLink>
       </div>

@@ -5,7 +5,7 @@ export default function ServicesCardEelement() {
   return (
     <div className='xl:px-28'>
         <Card
-            className='mt-12 min-w-max'
+            className='mt-12 xl:min-w-max '
             horizontal
         //   imgSrc="/images/blog/image-4.jpg"
             imgSrc="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.GkZvtUehYAE5zTqArBhuQQHaJH%26pid%3DApi&f=1&ipt=7dac42c4d021a4aaf28cafc168e2e3e1d82410773f9a71861511c6bde106c35b&ipo=images"

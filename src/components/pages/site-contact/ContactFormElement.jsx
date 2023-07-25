@@ -15,7 +15,7 @@ export default function ContactFormElement() {
         <input class="ml-2" type="text" placeholder="Input 2">
       </div> */}
       
-      <div class="flex gap-2">
+      <div className="flex gap-2">
         
         {/* nombres */}
         <div>

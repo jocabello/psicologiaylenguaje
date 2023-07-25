@@ -7,6 +7,8 @@ export default function NavbarWithCTAButton() {
     <Navbar
       fluid
       rounded
+      className='bg-[#B8B8FF]'
+      // className='bg-[#FFEEDD]'
     >
       <Navbar.Brand href="https://flowbite-react.com">
         <img
