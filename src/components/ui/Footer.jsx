@@ -4,13 +4,13 @@ import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-
 
 export default function FooterWithSocialMediaIcons() {
   return (
-    <Footer container className='bg-[#] '>
+    <Footer container className='bg-[#caf0f8] '>
       <div className="w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div className=''>
             <Footer.Brand
               alt="Flowbite Logo"
-              href="https://flowbite.com"
+              href="/"
               name="Psicología y Lenguaje"
               src="https://tailwindui.com/img/logos/mark.svg"
             />
@@ -65,7 +65,7 @@ export default function FooterWithSocialMediaIcons() {
         <div className="flex-auto">
           <Footer.Copyright
             by="Psicología y Lenguaje"
-            href="#"
+            href="/"
             year={2023}
           />
         </div>

@@ -9,7 +9,7 @@ export default function HomePage() {
   return (
     <div className='xl:px-28'>
       <div className='h-96 px-10 xl:mt-8 xl:mb-5'>
-        <Carousel slideInterval={7000}>
+        <Carousel slideInterval={7000} className=''>
           <img
             alt="..."
             src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
@@ -87,7 +87,7 @@ export default function HomePage() {
             <p className="font-normal text-gray-700 dark:text-gray-400">
               Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
             </p>
-            <Button gradientDuoTone="purpleToBlue"  >
+            <Button gradientDuoTone="greenToBlue"  >
               <p>
                 Conoce más
               </p>
@@ -109,7 +109,7 @@ export default function HomePage() {
             <p className="font-normal text-gray-700 dark:text-gray-400">
               Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
             </p>
-            <Button gradientDuoTone="purpleToBlue">
+            <Button gradientDuoTone="greenToBlue">
               <p>
                 Conoce más
               </p>
@@ -131,7 +131,7 @@ export default function HomePage() {
             <p className="font-normal text-gray-700 dark:text-gray-400">
               Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
             </p>
-            <Button gradientDuoTone="purpleToBlue">
+            <Button gradientDuoTone="greenToBlue">
               <p>
                 Conoce más
               </p>

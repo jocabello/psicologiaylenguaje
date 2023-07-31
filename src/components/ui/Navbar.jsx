@@ -7,10 +7,10 @@ export default function NavbarWithCTAButton() {
     <Navbar
       fluid
       rounded
-      className='bg-[#B8B8FF]'
+      className='bg-[#caf0f8]'
       // className='bg-[#FFEEDD]'
     >
-      <Navbar.Brand href="https://flowbite-react.com">
+      <Navbar.Brand href="/">
         <img
           alt="Flowbite React Logo"
           className="mr-3 h-6 sm:h-9"
@@ -22,7 +22,7 @@ export default function NavbarWithCTAButton() {
       </Navbar.Brand>
       <div className="flex md:order-2">
         <NavLink to="contacto">
-          <Button gradientDuoTone="purpleToBlue">
+          <Button gradientDuoTone="greenToBlue">
             ¡Contáctanos!
           </Button>
         </NavLink>

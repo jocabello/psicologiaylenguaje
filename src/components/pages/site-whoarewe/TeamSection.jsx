@@ -97,7 +97,7 @@ export default function TeamSection() {
               </Modal.Body>
               <Modal.Footer>
                 {/* <Button onClick={() => props.setOpenModal(undefined)}>I accept</Button> */}
-                <Button gradientDuoTone="cyanToBlue" onClick={() => props.setOpenModal(undefined)}>
+                <Button gradientDuoTone="cyanToBlue"  onClick={() => props.setOpenModal(undefined)}>
                   Cerrar
                 </Button>
               </Modal.Footer>

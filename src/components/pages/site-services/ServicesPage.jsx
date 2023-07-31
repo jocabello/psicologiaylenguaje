@@ -1,4 +1,4 @@
-import ServicesCardEelement from "./ServicesCardEelement";
+import CardsElements from "./CardsElements";
 
 export default function ServicesPage() {
   return (
@@ -13,7 +13,7 @@ export default function ServicesPage() {
       </div>
 
       <div className="flex flex-wrap justify-center">
-        <ServicesCardEelement />
+        <CardsElements />
       </div>
 
     </div>
