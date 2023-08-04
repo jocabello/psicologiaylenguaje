@@ -52,9 +52,9 @@ export default function HomePage() {
             imgSrc="/img1.png"
             className='xl:max-w-7xl'
           >
-            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
               <p>
-                Psicología
+                Psicología Cabalística
               </p>
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400 text-justify xl:h-32">
@@ -76,7 +76,7 @@ export default function HomePage() {
             imgSrc="/img1.png"
             className='max-w-7xl'
           >
-            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
               <p>
                 Fonoaudiología
               </p>
@@ -102,9 +102,9 @@ export default function HomePage() {
             imgSrc="/img1.png"
             className='max-w-7xl'
           >
-            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
               <p>
-                Terapia alternativa
+                Consejería Sexualidad y Educación
               </p>
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400 text-justify xl:h-32">
@@ -129,7 +129,7 @@ export default function HomePage() {
 
       <div className=" px-10 xl:mb-10 text-left mt-10 mb-5 flex justify-between">
         <h2 className="text-3xl tracking-tight text-gray-900 sm:text-4xl">Algunas Preguntas Frecuentes</h2>
-        <NavLink to="preguntasyrespuestas">
+        <NavLink className="" to="preguntasyrespuestas">
           <Button size="md" pill gradientDuoTone="redToYellow">Conoce más Preguntas Frecuentes<HiOutlineArrowRight className="ml-2 h-5 w-5" /></Button>
         </NavLink>
       </div>

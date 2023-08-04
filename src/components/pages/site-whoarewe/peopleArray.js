@@ -1,46 +1,46 @@
 export const people = [
 {
-    name: 'Sofía Castillo',
-    role: 'Fundadora / Psicóloga',
+    name: 'Ana María Véliz Berríos',
+    role: 'Psicóloga',
     imageUrl:
     'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     // description: "Mi trabajo como Psicóloga, por mi experiencia y larga historia de vida ha ido acumulando diversas miradas teóricas a través de los años , tales como el Psicoanálisis freudiano, junguiano y lacaniano y especialmente, en la terapia infantil , la escucha dinámica de Fracoise Dolto." + " \n Sin embargo, como la vida es un aprendizaje permanente, ya que a eso hemos venido, actualmente me he asomado a la fuente de toda ciencia y he llegado a concluir que todo lo llamado enfermedad psíquica que se manifiesta en diversas sintomatologías clasificadas en diversas nomenclaturas tales como: depresión, ansiedad, trastornos de personalidad, crisis de pánico , de identidad, dependencias , etc. Toda esta multiplicidad sintómatica corresponde a un grito desesperado del Alma impedida de ser feliz por la dificultad para encontrar el sentido de su existir.",
     descriptions: [
-        "Con experiencia en terapia cognitivo-conductual, ofrezco apoyo emocional y estrategias para superar desafíos mentales. Mi enfoque es empoderar a mis pacientes y cultivar una salud mental positiva.",
-        "Con un enfoque en terapia de pareja y relaciones familiares, mi objetivo es fomentar la comprensión y la empatía para crear vínculos más sólidos y significativos en la vida de mis pacientes.",
+        "Mi nombre es Ana. Nací en Chile, estudié fonoaudiología a final de los años 70. Residí en Suecia, trabaje como logopeda en el Hospital Central de Vasteras. Volví a Chile, estudié psicología y actualmente realizo un diplomado en la escuela de Psicología y Cábala de España, cuyo Director es el Doctor Mario Javier Saban.",
+        "Me especializo en la psicología cabalística y psicoanalítica.",
         
     ]
 },
 {
-    name: 'María Ángeles Garrido',
-    role: 'Co-Fundadora/ Fonoaudióloga',
+    name: 'Susana Tobar Berríos',
+    role: 'Fonoaudióloga Universidad de Chile',
     imageUrl:
     'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     // description: "This is a description",
     descriptions: [
-        ""
+        "Amplia experiencia en la estimulación  del lenguaje en la primera infancia. Evaluación y Tratamiento referidos a trastornos del habla, trastornos específicos del lenguaje expresivo y comprensivo ( T.E.L.) y  tratamiento de Trastornos del Espectro Autista (T.E.A.) en edades preescolares y escolares."
     ]
 },
 {
-    name: 'Montserrat Gallardo',
-    role: 'Fonoaudióloga',
+    name: 'Patricia Cabello Campos',
+    role: 'Fonoaudióloga Universidad de Chile',
     imageUrl:
     'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     // description: "This is a description",
     descriptions: [
-        "Especializada en trastornos del lenguaje y deglución, mi objetivo es restaurar habilidades comunicativas y nutricionales. Brindo terapias compasivas y efectivas para mejorar la calidad de vida.",
-        "Especializada en rehabilitación vocal, mi objetivo es devolver la voz y la confianza a aquellos que han enfrentado desafíos en su capacidad de hablar. Ofrezco un enfoque integral y comprensivo.",
-        "Especializada en terapia para niños con dificultades del aprendizaje, utilizo métodos lúdicos y creativos para estimular el desarrollo lingüístico y mejorar las habilidades académicas de mis jóvenes pacientes.",
+        "Profesional con amplia experiencia en el área del habla y lenguaje infantil abordando Trastornos del Habla, Trastorno Específico del Lenguaje (TEL) y trastorno de la comunicación y lenguaje asociado a Trastorno del espectro autista (TEA) en población preescolar y escolar del primer ciclo básico.",
+        "",
+        "",
     ]
 },
 {
-    name: 'Sandra Lorenzo Ruiz',
-    role: 'Psicóloga',
+    name: 'Gloria Véliz Berríos',
+    role: 'Antropología Social',
     imageUrl:
     'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     // description: "This is a description",
     descriptions: [
-        "Empática y comprometida, trabajo con enfoque humanista para ayudar a mis clientes a desarrollar una mayor comprensión de sí mismos y encontrar soluciones efectivas para el crecimiento personal y emocional.",
+        "Licenciada en Antropología Social. Me especialice en consejería en VIH/SIDA, Infecciones de transmisión sexual (ITS), sexualidad y afectividad. A partir del año 2007 trabaje en diversas instituciones dependientes del Ministerio de Salud y en instituciones educativas. Desde mi perspectiva considero fundamental brindar un espacio de orientación y educación tanto a nivel individual como familiar si lo requieren los consultantes.",
     ]
 },
 ]
