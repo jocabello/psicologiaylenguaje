@@ -15,13 +15,13 @@ export default function BigAccordionElement() {
           <p className="mb-5 text-gray-700 dark:text-gray-400">
             Las personas con TEL tienen dificultades para entender y expresar el lenguaje de manera adecuada, lo que puede manifestarse en diferentes áreas, como:
           </p>
-          <ul className='mb-5 tracking-wide leading-8'>
-            <li>Lenguaje receptivo: Dificultades para comprender palabras, oraciones o instrucciones.</li>
-            <li>Lenguaje expresivo: Problemas para expresar ideas, pensamientos o deseos con palabras.</li>
-            <li>Habilidades fonológicas: Dificultades para pronunciar ciertos sonidos o secuencias de sonidos.</li>
-            <li>Habilidades gramaticales: Errores en la estructura de oraciones y la gramática.</li>
-            <li>Habilidades léxicas: Limitaciones en el vocabulario y la capacidad de encontrar las palabras adecuadas.</li>
-            <li>Habilidades pragmáticas: Dificultades para comprender y utilizar el lenguaje en situaciones sociales.</li>
+          <ul className='pl-4 mb-5 tracking-wide leading-8'>
+            <li className='list-disc'><a className='font-bold'>Lenguaje receptivo:</a> Dificultades para comprender palabras, oraciones o instrucciones.</li>
+            <li className='list-disc'><a className='font-bold'>Lenguaje expresivo:</a> Problemas para expresar ideas, pensamientos o deseos con palabras.</li>
+            <li className='list-disc'><a className='font-bold'>Habilidades fonológicas:</a> Dificultades para pronunciar ciertos sonidos o secuencias de sonidos.</li>
+            <li className='list-disc'><a className='font-bold'>Habilidades gramaticales:</a> Errores en la estructura de oraciones y la gramática.</li>
+            <li className='list-disc'><a className='font-bold'>Habilidades léxicas:</a> Limitaciones en el vocabulario y la capacidad de encontrar las palabras adecuadas.</li>
+            <li className='list-disc'><a className='font-bold'>Habilidades pragmáticas:</a> Dificultades para comprender y utilizar el lenguaje en situaciones sociales.</li>
           </ul>          
           <p className="mb-5 text-gray-700 dark:text-gray-400">
             Es importante destacar que el TEL es una condición que se presenta desde la infancia, antes de que el niño alcance los cinco años. Estas dificultades lingüísticas pueden afectar su capacidad para comunicarse efectivamente, lo que puede tener repercusiones en su desarrollo social, emocional y académico.
@@ -235,10 +235,10 @@ export default function BigAccordionElement() {
           <p className="mb-5 text-gray-700 dark:text-gray-400">
             Las herramientas utilizadas en la consejería pueden variar según el enfoque teórico y la especialización del consejero.  La consejería utiliza una amplia variedad de herramientas y técnicas para abordar los problemas y desafíos que enfrentan las personas. Estas herramientas están diseñadas para facilitar la exploración, comprensión y resolución de las dificultades emocionales, mentales o relacionales, algunas de las herramientas más comunes utilizadas en la consejería son:
           </p>
-          <ul className='mb-5 tracking-wide leading-8'>
-            <li>Escucha activa: Los consejeros practican la escucha activa para comprender en profundidad las preocupaciones y sentimientos de las personas. Esto implica prestar atención, hacer preguntas pertinentes y ser un reflejo de lo que la persona expresa. </li>
-            <li>Psicoeducación: Los consejeros entregan información y educación sobre problemas específicos, habilidades de afrontamiento y estrategias para mejorar el bienestar emocional.</li>
-            <li>Terapia familiar: Se enfoca en abordar los problemas desde una perspectiva sistémica y trabajar con las relaciones y dinámicas familiares.</li>            
+          <ul className='pl-4 mb-5 tracking-wide leading-8'>
+            <li className='list-disc'><a className='font-bold'>Escucha activa:</a> Los consejeros practican la escucha activa para comprender en profundidad las preocupaciones y sentimientos de las personas. Esto implica prestar atención, hacer preguntas pertinentes y ser un reflejo de lo que la persona expresa. </li>
+            <li className='list-disc'><a className='font-bold'>Psicoeducación:</a> Los consejeros entregan información y educación sobre problemas específicos, habilidades de afrontamiento y estrategias para mejorar el bienestar emocional.</li>
+            <li className='list-disc'><a className='font-bold'>Terapia familiar:</a> Se enfoca en abordar los problemas desde una perspectiva sistémica y trabajar con las relaciones y dinámicas familiares.</li>            
           </ul>      
         </Accordion.Content>
       </Accordion.Panel>
