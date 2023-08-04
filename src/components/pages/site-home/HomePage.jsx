@@ -12,23 +12,19 @@ export default function HomePage() {
         <Carousel slideInterval={7000} className=''>
           <img
             alt="..."
-            src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
+            src='/carousel/carr1.jpeg'
           />
           <img
             alt="..."
-            src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
+            src='/carousel/carr2.jpeg'
           />
           <img
             alt="..."
-            src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
+            src='/carousel/carr3.jpeg'
           />
           <img
             alt="..."
-            src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
-          />
-          <img
-            alt="..."
-            src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
+            src='/carousel/carr4.jpeg'
           />
         </Carousel>
       </div>
@@ -54,7 +50,7 @@ export default function HomePage() {
           >
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
               <p>
-                Psicología Cabalística
+                Psicología cabalística
               </p>
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400 text-justify xl:h-32">
@@ -104,7 +100,7 @@ export default function HomePage() {
           >
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
               <p>
-                Consejería Sexualidad y Educación
+                Consejería, sexualidad y educación
               </p>
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400 text-justify xl:h-32">
