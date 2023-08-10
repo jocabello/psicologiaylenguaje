@@ -1,21 +1,27 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import ReCAPTCHA from 'react-google-recaptcha';
 
-import { Button, Label, TextInput, Textarea } from 'flowbite-react';
+import { Button, Label, TextInput, Textarea, Checkbox } from 'flowbite-react';
 import { HiMail } from 'react-icons/hi';
 
 export default function ContactFormElement() {
+
+  const [buttonState, setbuttonState] = useState(true);
   
   const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  const sendEmail = (captchaValue) => {
+    const params = {
+      ...formState,
+      'g-recaptcha-response': captchaValue,
+    };
 
-    emailjs.sendForm('service_281c1ff', 'template_pa01k8h', form.current, 'Pu9qYYI76mbvqiars')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
+    emailjs.sendForm(import.meta.env.VITE_EMAIL_JS_SERVICE, import.meta.env.VITE_EMAIL_JS_TEMPLATE, params, import.meta.env.VITE_EMAIL_JS_USER)
+      .then(({ status }) => {
+        console.log("EMAILJS SENT", status.code);
+      }, (err) => {
+        console.log("EMAILJS ERROR", err);
       });
   };
 
@@ -107,8 +113,21 @@ export default function ContactFormElement() {
             name='form_message'
           />
         </div>
-      
-        <Button type="submit" gradientDuoTone="purpleToBlue" className="mt-4">
+
+        <ReCAPTCHA
+          sitekey={import.meta.env.VITE_CAPTCHA_SITE_KEY}
+          className='flex justify-center'
+          // onChange={()=>setbuttonState(!buttonState)}
+          onChange={sendEmail}
+        />
+
+        {/* <Checkbox
+          id="accept"
+          onChange={()=>setbuttonState(!buttonState)}
+        /> */}
+
+        {/* <Button disabled={buttonState} type="submit" gradientDuoTone="purpleToBlue" className=""> */}
+        <Button type="submit" gradientDuoTone="purpleToBlue" className="">
           Enviar
         </Button>
     </div>
