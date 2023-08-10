@@ -1,114 +1,117 @@
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
-import { Button, Checkbox, Label, TextInput, Textarea } from 'flowbite-react';
+import { Button, Label, TextInput, Textarea } from 'flowbite-react';
 import { HiMail } from 'react-icons/hi';
 
 export default function ContactFormElement() {
+  
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_281c1ff', 'template_pa01k8h', form.current, 'Pu9qYYI76mbvqiars')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
-    <form className="p-8">
-
-    <div className="md:flex xl:flex xl:max-w-xl flex-col gap-4">
-
-
-
-      {/* <div class="flex">
-        <input class="mr-2" type="text" placeholder="Input 1">
-        <input class="ml-2" type="text" placeholder="Input 2">
-      </div> */}
-      
-      <div className="flex gap-2">
-        
-        {/* nombres */}
-        <div>
-          <div className="mb-2 block ">
-            <Label
-              htmlFor="base"
-              value="Nombres"
+    <form className="p-8" ref={form} onSubmit={sendEmail}>
+      <div className="md:flex xl:flex xl:max-w-xl flex-col gap-4">
+        <div className="flex gap-2">
+          {/* nombre completo */}
+          <div>
+            <div className="mb-2 block ">
+              <Label
+                htmlFor="base"
+                value="Nombre completo"
+              />
+            </div>
+            <TextInput
+              id="base"
+              sizing=""
+              type="text"
+              name="form_fullname"
             />
           </div>
-          <TextInput
-            id="base"
-            sizing=""
-            type="text"
-          />
+          {/* teléfono */}
+          <div>
+            <div className="mb-2 block">
+              <Label
+                htmlFor="base"
+                value="Número de contacto"
+              />
+            </div>
+            <TextInput
+              id="base"
+              sizing=""
+              type="text"
+              placeholder="+569 5555 55 55"
+              name='form_phone'
+            />
+          </div>
         </div>
-
-        {/* apellidos */}
+        {/* asunto*/}
         <div>
           <div className="mb-2 block">
             <Label
               htmlFor="base"
-              value="Apellidos"
+              value="Asunto de su mensaje"
             />
           </div>
           <TextInput
             id="base"
             sizing=""
             type="text"
+            placeholder="Ej: Reserva de hora para Fonoaudiología"
+            name='form_subject'
           />
         </div>
-      </div>
-
-      {/* numero teléfono */}
-      <div>
-        <div className="mb-2 block">
-          <Label
-            htmlFor="base"
-            value="Número de contacto"
+        {/* email */}
+        <div>
+          <div className="mb-2 block">
+            <Label
+              htmlFor="email1"
+              value="Correo electrónico"
+            />
+          </div>
+          <TextInput
+            icon={HiMail}
+            id="email1"
+            placeholder="tucorreo@email.com"
+            required
+            type="email"
+            name='form_email'
           />
         </div>
-        <TextInput
-          id="base"
-          sizing=""
-          type="number"
-        />
-      </div>
-
-
-      {/* email */}
-
-      <div>
-        <div className="mb-2 block">
-          <Label
-            htmlFor="email1"
-            value="Correo electrónico"
+        {/* message */}
+        <div
+          className=""
+          id="textarea"
+        >
+          <div className="mb-2 block">
+            <Label
+              htmlFor="comment"
+              value="Escribe tu mensaje"
+            />
+          </div>
+          <Textarea
+            id="comment"
+            placeholder="Mensaje..."
+            required
+            rows={4}
+            name='form_message'
           />
         </div>
-        <TextInput
-          icon={HiMail}
-          id="email1"
-          placeholder="tucorreo@email.com"
-          required
-          type="email"
-        />
-      </div>
-
-
-      {/* text area */}
-      <div
-        className=""
-        id="textarea"
-      >
-        <div className="mb-2 block">
-          <Label
-            htmlFor="comment"
-            value="Escribe tu mensaje"
-          />
-        </div>
-        <Textarea
-          id="comment"
-          placeholder="Mensaje..."
-          required
-          rows={4}
-        />
-      </div>
-    
-      <Button type="submit" gradientDuoTone="purpleToBlue" className="mt-4">
-        Enviar
-      </Button>
+      
+        <Button type="submit" gradientDuoTone="purpleToBlue" className="mt-4">
+          Enviar
+        </Button>
     </div>
-
-
-
     </form>
   )
 }
