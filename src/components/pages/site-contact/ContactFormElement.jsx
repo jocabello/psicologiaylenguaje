@@ -2,31 +2,49 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import ReCAPTCHA from 'react-google-recaptcha';
 
-import { Button, Label, TextInput, Textarea, Checkbox } from 'flowbite-react';
+import { Button, Label, TextInput, Textarea } from 'flowbite-react';
 import { HiMail } from 'react-icons/hi';
 
 export default function ContactFormElement() {
 
-  const [buttonState, setbuttonState] = useState(true);
+  const [buttonState, setbuttonState] = useState(false);
   
   const form = useRef();
+  const refCaptcha = useRef();
 
-  const sendEmail = (captchaValue) => {
-    const params = {
-      ...formState,
-      'g-recaptcha-response': captchaValue,
-    };
+  const handleSubmit = (e) => {
+    e.preventDefault();
 
-    emailjs.sendForm(import.meta.env.VITE_EMAIL_JS_SERVICE, import.meta.env.VITE_EMAIL_JS_TEMPLATE, params, import.meta.env.VITE_EMAIL_JS_USER)
-      .then(({ status }) => {
-        console.log("EMAILJS SENT", status.code);
-      }, (err) => {
-        console.log("EMAILJS ERROR", err);
-      });
+    if(refCaptcha.current.getValue()){
+      emailjs.sendForm(
+          import.meta.env.VITE_EMAIL_JS_SERVICE, 
+          import.meta.env.VITE_EMAIL_JS_TEMPLATE,
+          form.current,
+          import.meta.env.VITE_EMAIL_JS_USER,
+        )
+        .then(({ status }) => {
+          
+          console.log("EMAILJS SENT", status);
+          
+        }, (err) => {
+          console.log("EMAILJS ERROR", err);
+        });
+    }else{
+      // aletar de validar captcha
+    }
+  };
+
+  const handleReCaptcha = () => {
+    const token = refCaptcha.current.getValue();
+    if(refCaptcha.current.getValue()){
+      setbuttonState(true)
+    }else{
+      setbuttonState(false)
+    }
   };
 
   return (
-    <form className="p-8" ref={form} onSubmit={sendEmail}>
+    <form className="p-8" ref={form} onSubmit={handleSubmit}>
       <div className="md:flex xl:flex xl:max-w-xl flex-col gap-4">
         <div className="flex gap-2">
           {/* nombre completo */}
@@ -42,6 +60,7 @@ export default function ContactFormElement() {
               sizing=""
               type="text"
               name="form_fullname"
+              required
             />
           </div>
           {/* teléfono */}
@@ -75,6 +94,7 @@ export default function ContactFormElement() {
             type="text"
             placeholder="Ej: Reserva de hora para Fonoaudiología"
             name='form_subject'
+            required
           />
         </div>
         {/* email */}
@@ -117,20 +137,13 @@ export default function ContactFormElement() {
         <ReCAPTCHA
           sitekey={import.meta.env.VITE_CAPTCHA_SITE_KEY}
           className='flex justify-center'
-          // onChange={()=>setbuttonState(!buttonState)}
-          onChange={sendEmail}
+          ref={refCaptcha}
+          onChange={handleReCaptcha}
+          hl='es-419'
         />
 
-        {/* <Checkbox
-          id="accept"
-          onChange={()=>setbuttonState(!buttonState)}
-        /> */}
-
-        {/* <Button disabled={buttonState} type="submit" gradientDuoTone="purpleToBlue" className=""> */}
-        <Button type="submit" gradientDuoTone="purpleToBlue" className="">
-          Enviar
-        </Button>
-    </div>
+        <Button disabled={!buttonState} type="submit" gradientDuoTone="purpleToBlue" className="">Enviar</Button>
+      </div>
     </form>
   )
 }
