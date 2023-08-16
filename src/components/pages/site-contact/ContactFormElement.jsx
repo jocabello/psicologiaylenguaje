@@ -136,13 +136,13 @@ export default function ContactFormElement() {
 
         <ReCAPTCHA
           sitekey={import.meta.env.VITE_CAPTCHA_SITE_KEY}
-          className='flex justify-center'
+          className='flex justify-center py-3'
           ref={refCaptcha}
           onChange={handleReCaptcha}
           hl='es-419'
         />
 
-        <Button disabled={!buttonState} type="submit" gradientDuoTone="purpleToBlue" className="">Enviar</Button>
+        <Button disabled={!buttonState} type="submit" gradientDuoTone="purpleToBlue" className="w-full">Enviar</Button>
       </div>
     </form>
   )
