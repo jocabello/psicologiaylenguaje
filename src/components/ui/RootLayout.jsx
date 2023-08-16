@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom"
+import { Outlet, ScrollRestoration } from "react-router-dom"
 import NavbarWithCTAButton from "./Navbar"
 import FooterWithSocialMediaIcons from "./Footer"
 
@@ -12,6 +12,7 @@ export default function RootLayout() {
             <Outlet />
         </main>
         <FooterWithSocialMediaIcons />
+        <ScrollRestoration />
     </div>
   )
 }

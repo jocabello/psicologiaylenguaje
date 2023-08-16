@@ -5,7 +5,10 @@ import ReCAPTCHA from 'react-google-recaptcha';
 import { Button, Label, TextInput, Textarea } from 'flowbite-react';
 import { HiMail } from 'react-icons/hi';
 
+import { useNavigate } from "react-router-dom";
+
 export default function ContactFormElement() {
+  const navigate = useNavigate();
 
   const [buttonState, setbuttonState] = useState(false);
   
@@ -25,13 +28,15 @@ export default function ContactFormElement() {
         .then(({ status }) => {
           
           console.log("EMAILJS SENT", status);
-          
+          alert('Mensaje enviado! Pronto nos contactaremos contigo.')
+          navigate("/");
         }, (err) => {
           console.log("EMAILJS ERROR", err);
         });
     }else{
-      // aletar de validar captcha
+      alert('Complete el reCaptcha.')
     }
+
   };
 
   const handleReCaptcha = () => {
