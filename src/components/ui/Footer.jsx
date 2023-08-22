@@ -1,6 +1,7 @@
 
 import { Footer } from 'flowbite-react';
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
+const logoImgUrl = new URL('/logo/PeiColor.png', import.meta.url).href
 
 export default function FooterWithSocialMediaIcons() {
   return (
@@ -12,7 +13,7 @@ export default function FooterWithSocialMediaIcons() {
               alt="Flowbite Logo"
               href="/"
               name="Psicología y Lenguaje"
-              src="https://tailwindui.com/img/logos/mark.svg"
+              src={logoImgUrl}
             />
           </div>
           <div className="sm:mt-16 sm:grid-cols-2 sm:gap-6 grid grid-rows-1 grid-flow-col gap-4 md:mt-16 ">
