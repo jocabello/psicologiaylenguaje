@@ -13,34 +13,34 @@ export const people = [
 },
 {
     name: 'Susana Tobar Berríos',
-    role: 'Fonoaudióloga Universidad de Chile',
+    role: 'Fonoaudióloga',
     imageUrl:
     './people/susana2.jpeg',
     // description: "This is a description",
     descriptions: [
-        "Amplia experiencia en la estimulación  del lenguaje en la primera infancia. Evaluación y Tratamiento referidos a trastornos del habla, trastornos específicos del lenguaje expresivo y comprensivo ( T.E.L.) y  tratamiento de Trastornos del Espectro Autista (T.E.A.) en edades preescolares y escolares."
+        "Fonoaudióloga egresada de la Universidad de Chile con amplia experiencia en la estimulación  del lenguaje en la primera infancia. Evaluación y Tratamiento referidos a trastornos del habla, trastornos específicos del lenguaje expresivo y comprensivo (TEL) y  tratamiento de Trastornos del Espectro Autista (TEA) en edades preescolares y escolares."
     ]
 },
 {
     name: 'Patricia Cabello Campos',
-    role: 'Fonoaudióloga Universidad de Chile',
+    role: 'Fonoaudióloga',
     imageUrl:
     './people/patricia2.jpeg',
     // description: "This is a description",
     descriptions: [
-        "Profesional con amplia experiencia en el área del habla y lenguaje infantil abordando Trastornos del Habla, Trastorno Específico del Lenguaje (TEL) y trastorno de la comunicación y lenguaje asociado a Trastorno del espectro autista (TEA) en población preescolar y escolar del primer ciclo básico.",
+        "Profesional egresada de la Universidad de Chile con amplia experiencia en el área del habla y lenguaje infantil abordando trastornos del habla, Trastorno Específico del Lenguaje (TEL) y trastorno de la comunicación y lenguaje asociado a Trastorno del espectro autista (TEA) en población preescolar y escolar del primer ciclo básico.",
         "",
         "",
     ]
 },
 {
     name: 'Gloria Véliz Berríos',
-    role: 'Antropología Social',
+    role: 'Antropologa Social',
     imageUrl:
     './people/gloria2.jpeg',
     // description: "This is a description",
     descriptions: [
-        "Licenciada en Antropología Social. Me especialice en consejería en VIH/SIDA, Infecciones de transmisión sexual (ITS), sexualidad y afectividad. A partir del año 2007 trabaje en diversas instituciones dependientes del Ministerio de Salud y en instituciones educativas. Desde mi perspectiva considero fundamental brindar un espacio de orientación y educación tanto a nivel individual como familiar si lo requieren los consultantes.",
+        "Licenciada en Antropología Social. Me especialicé en consejería en VIH/SIDA, Infecciones de transmisión sexual (ITS), sexualidad y afectividad. A partir del año 2007 trabajé en diversas instituciones dependientes del Ministerio de Salud y en instituciones educativas. Desde mi perspectiva considero fundamental brindar un espacio de orientación y educación tanto a nivel individual como familiar si lo requieren los consultantes.",
     ]
 },
 ]
