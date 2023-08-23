@@ -35,7 +35,7 @@ export const people = [
 },
 {
     name: 'Gloria Véliz Berríos',
-    role: 'Antropologa Social',
+    role: 'Antropóloga Social',
     imageUrl:
     './people/gloria2.jpeg',
     // description: "This is a description",
