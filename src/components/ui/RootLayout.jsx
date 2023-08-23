@@ -1,6 +1,7 @@
 import { Outlet, ScrollRestoration } from "react-router-dom"
 import FooterWithSocialMediaIcons from "./Footer"
 import NavBar from "./NavBar"
+import WhatsAppButonComponent from "./WhatsAppButonComponent"
 
 
 export default function RootLayout() {
@@ -10,6 +11,7 @@ export default function RootLayout() {
         <NavBar />
         <main className="bg-[#F8F7FF] flex-grow">
             <Outlet />
+            <WhatsAppButonComponent />
         </main>
         <FooterWithSocialMediaIcons />
         <ScrollRestoration />

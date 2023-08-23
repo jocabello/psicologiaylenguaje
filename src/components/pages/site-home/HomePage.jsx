@@ -9,7 +9,7 @@ export default function HomePage() {
   return (
     <div className='xl:px-28'>
 
-      <div className='h-96 px-10 mt-3 md:mt-8 xl:mt-8 xl:mb-5'>
+      <div className='mx-auto max-w-7xl h-96 px-10 mt-3 md:mt-8 xl:mt-8 xl:mb-5'>
         <Carousel slideInterval={7000} className=''>
           <img
             alt="..."
