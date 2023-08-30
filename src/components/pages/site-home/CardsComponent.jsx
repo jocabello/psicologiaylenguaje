@@ -23,7 +23,7 @@ export default function CardsComponent() {
                 </p>
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400 text-justify xl:h-full ">
-                Encuentra apoyo emocional y equilibrio en nuestro servicio de psicología. Terapeutas compasivos y enfoques basados en evidencia te guiarán hacia una mente sana y una vida plena.
+                Espacio terapéutico que utiliza como herramienta el Arbol de la Vida para equilibrar las energías que nos posibilitan disminuir ansiedades, dependencias, crisis de pánico, entre muchas.
             </p>
             <NavLink to="servicios">
                 <Button className="w-full" gradientDuoTone="greenToBlue">
@@ -49,7 +49,7 @@ export default function CardsComponent() {
                 </p>
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400 text-justify xl:h-full">
-                Mejora tus habilidades de comunicación con nuestros fonoaudiólogos especializados. Desde el desarrollo infantil hasta la fluidez en adultos, desbloquea tu potencial para una comunicación efectiva.
+                Diagnóstico clínico, orientación y tratamiento de la primera infancia, prescolares y escolares que padezcan trastornos del habla, del lenguaje y de la comunicación.
             </p>
             <NavLink to="servicios">
                 <Button className="w-full" gradientDuoTone="greenToBlue">
@@ -78,7 +78,7 @@ export default function CardsComponent() {
                 </p>
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400 text-justify xl:h-full ">
-                Explora una sanación integral con nuestras terapias alternativas. Desde acupuntura hasta reiki, descubre cómo equilibrar mente, cuerpo y espíritu para alcanzar bienestar y armonía duraderos.
+                Un espacio de información, reflexión y orientación individual y familiar en relación a la salud/enfermedad, infecciones de transmisión sexual, vih/sida, sexualidad y afectividad.
             </p>
             <NavLink to="servicios">
                 <Button className="w-full" gradientDuoTone="greenToBlue">

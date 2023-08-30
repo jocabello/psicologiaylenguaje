@@ -22,11 +22,11 @@ export default function FooterWithSocialMediaIcons() {
 
               <div>
                 <Footer.Title title="Dirección" />
-                <p className='-mt-5 mb-3'>Avenida Uno n° 123 oficina 33, Las Condes, Santiago</p>
+                <p className='-mt-5 mb-3'>Callao n° 2970 oficina 508, Las Condes, Santiago</p>
               </div>
               <div>
                 <Footer.Title title="Teléfono" />
-                <p className='-mt-5 mb-3'>+569 5555 5555</p>
+                <p className='-mt-5 mb-3'>+569 58736797</p>
               </div>
 
             </div>
@@ -35,7 +35,7 @@ export default function FooterWithSocialMediaIcons() {
 
               <div>
                 <Footer.Title title="Email" />
-                <p className='-mt-5 mb-3'>contacto@email.com</p>
+                <p className='-mt-5 mb-3'>consultapsicologiaylenguaje@gmail.com</p>
               </div>
               <div>
                 <Footer.Title title="Redes sociales" />
