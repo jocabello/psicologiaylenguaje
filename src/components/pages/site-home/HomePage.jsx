@@ -14,18 +14,12 @@ export default function HomePage() {
           <img
             alt="..."
             src='./carousel/carr5.jpg'
+            className='object-scale-down rounded'
           />
           <img
             alt="..."
-            src='./carousel/carr2.jpeg'
-          />
-          <img
-            alt="..."
-            src='./carousel/carr3.jpeg'
-          />
-          <img
-            alt="..."
-            src='./carousel/carr4.jpeg'
+            src='./carousel/carrusel2.jpg'
+            className='object-scale-down rounded'
           />
         </Carousel>
       </div>
