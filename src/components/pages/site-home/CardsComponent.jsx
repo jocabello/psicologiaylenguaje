@@ -12,7 +12,6 @@ export default function CardsComponent() {
         <div  className='flex-1 pt-6 pl-6 pr-6'>
             <Card
             imgAlt="Meaningful alt text for an image that is not purely decorative"
-            // imgSrc="./cards/card_psyc.jpg"
             imgSrc="./cards/card_psyc.jpg"
             className='h-full'
 
@@ -64,11 +63,8 @@ export default function CardsComponent() {
 
         {/* c3  */}
         <div className='flex-1 pt-6 pl-6 pr-6'>
-        {/* <img className="h-40 w-40 rounded-full" src={selectedPerson.imageUrl} alt="" /> */}
-            {/* <Card renderImage={() => {<Image width={500} height={500} src="/img1.png" />}}> */}
             <Card
             imgAlt="Meaningful alt text for an image that is not purely decorative"
-            // imgSrc="./cards/card_con.jpg"
             imgSrc="./cards/card_con.jpg"
             className='h-full'
             >

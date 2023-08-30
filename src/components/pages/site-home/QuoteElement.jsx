@@ -14,7 +14,6 @@ export default function QuoteElement() {
                 <img className="w-10 h-10 rounded-full" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimgv2-2-f.scribdassets.com%2Fimg%2Fdocument%2F132721651%2Foriginal%2F84c27204f8%2F1596035907%3Fv%3D1&f=1&nofb=1&ipt=84e06c040c09c72e269c48d74182bb40069d2b3849f6fd3c84fd5eb0bcacb3ec&ipo=images" alt="profile picture"/>
                 <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                     <cite className="pr-3 font-medium text-gray-900 dark:text-white">El Talmud</cite>
-                    {/* <cite class="pl-3 text-sm text-gray-500 dark:text-gray-400">CEO at Google</cite> */}
                 </div>
             </figcaption>
         </figure>

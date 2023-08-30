@@ -11,12 +11,7 @@ export default function CardsElements() {
             <p className="mb-5 text-base text-gray-500 dark:text-gray-400 sm:text-lg text-justify">
                 {PISC_PARAGRAPH_1}
             </p>
-            {/* <p className="mb-5 text-base text-gray-500 dark:text-gray-400 sm:text-lg text-justify">
-                {PISC_PARAGRAPH_2}
-            </p>
-            <p className="mb-5 text-base text-gray-500 dark:text-gray-400 sm:text-lg text-justify">
-                {PISC_PARAGRAPH_3}
-            </p> */}
+
         </Card>
         
         <div className='py-10 xl:py-20'>
@@ -27,12 +22,7 @@ export default function CardsElements() {
                 <p className="mb-5 text-base text-gray-500 dark:text-gray-400 sm:text-lg text-justify">
                     {FONO_PARAGRAPH_1}
                 </p>
-                {/* <p className="mb-5 text-base text-gray-500 dark:text-gray-400 sm:text-lg text-justify">
-                    {PISC_PARAGRAPH_2}
-                </p>
-                <p className="mb-5 text-base text-gray-500 dark:text-gray-400 sm:text-lg text-justify">
-                    {PISC_PARAGRAPH_3}
-                </p> */}
+
             </Card>
         </div>
 
@@ -43,12 +33,7 @@ export default function CardsElements() {
             <p className="mb-5 text-base text-gray-500 dark:text-gray-400 sm:text-lg text-justify">
                 {ALT_PARAGRAPH_1}
             </p>
-            {/* <p className="mb-5 text-base text-gray-500 dark:text-gray-400 sm:text-lg text-justify">
-                {PISC_PARAGRAPH_2}
-            </p>
-            <p className="mb-5 text-base text-gray-500 dark:text-gray-400 sm:text-lg text-justify">
-                {PISC_PARAGRAPH_3}
-            </p> */}
+
         </Card>
 
     </div>

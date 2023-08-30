@@ -10,8 +10,7 @@ export default function ContactPage() {
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.1617773972835!2d-70.60069862337431!3d-33.41902639590513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf6b2945b099%3A0xc70d7b8e0e1195b4!2sCallao%202970%2C%20Las%20Condes%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1sen!2scl!4v1693419905938!5m2!1sen!2scl" 
           width="100%"
           height="100%"
-          style={{border:0}} 
-          // allowfullscreen="true"
+          style={{border:0}}
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         />
@@ -25,9 +24,7 @@ export default function ContactPage() {
       </div>
       
       <div className="flex flex-wrap justify-center">
-        {/* <div></div> */}
         <ContactFormElement />
-        {/* <div></div> */}
       </div>
 
 

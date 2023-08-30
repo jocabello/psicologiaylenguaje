@@ -1,6 +1,6 @@
 
 import { Footer } from 'flowbite-react';
-import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
+import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs';
 const logoImgUrl = new URL('/logo/PeiColor.png', import.meta.url).href
 
 export default function FooterWithSocialMediaIcons() {

@@ -1,34 +1,20 @@
 import { Button, Modal  } from 'flowbite-react';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 import { people } from './peopleArray';
-
-
-
 
 export default function TeamSection() {
   const [openModal, setOpenModal] = useState();
   const props = { openModal, setOpenModal };
 
   const [selectedPerson, setSelectedPerson] = useState([]);
-
-  // useEffect(() => {
-  //   props.setOpenModal('dismissible')
-  //   console.log(selectedPerson);
-  // }, [selectedPerson]);
-  // useEffect(() => {
-  //   console.log(selectedPerson);
-  // }, [openModal]);
   
   const handleOpenModal = (person) => {
     setSelectedPerson(person);
     props.setOpenModal('dismissible')
-    // console.log(Date.now().toString());
-
   }
 
   return (
-    // <div className="bg-white py-24 sm:py-32">
     <div className="py-16 sm:py-20">
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
         <div className="max-w-2xl">
@@ -50,12 +36,6 @@ export default function TeamSection() {
                       size="xs" 
                       gradientDuoTone="purpleToBlue"
                       onClick={() => {
-                        // setSelectedPerson({
-                        //   personName: person.name
-                        // })
-                        // props.setOpenModal('dismissible')
-                        // console.log(selectedPerson.personName);
-
                         handleOpenModal(person)
                       }}
                     >
@@ -95,7 +75,6 @@ export default function TeamSection() {
                 </div>
               </Modal.Body>
               <Modal.Footer>
-                {/* <Button onClick={() => props.setOpenModal(undefined)}>I accept</Button> */}
                 <Button gradientDuoTone="cyanToBlue"  onClick={() => props.setOpenModal(undefined)}>
                   Cerrar
                 </Button>
@@ -108,7 +87,6 @@ export default function TeamSection() {
           ))}
         </ul>
       </div>
-      {/* modal again? */}
     </div>
   )
 }

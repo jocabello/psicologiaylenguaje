@@ -1,7 +1,7 @@
 import { Button } from 'flowbite-react';
 
 import { useState } from 'react'
-import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
+import { Dialog, Popover } from '@headlessui/react'
 import {
   Bars3Icon,
   XMarkIcon,
